@@ -2,7 +2,7 @@
 .person-container {
     width: 400px;
     max-width: 400px; /* Set a max width for consistency */
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;

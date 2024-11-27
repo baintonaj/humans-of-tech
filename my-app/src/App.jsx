@@ -19,7 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/personpage" element={<Personpage apiKey={KEY} />} />
-            <Route path="/SearchName" element={<SearchName apiKey={KEY} />} /> {/* New route for SearchName */}
+            <Route path="/SearchName" element={<SearchName apiKey={KEY} />} />
         </Routes>
       </main>
     </BrowserRouter>
