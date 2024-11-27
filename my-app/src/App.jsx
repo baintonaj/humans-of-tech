@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Pages/Home';
 import Personpage from './components/Pages/Personpage';
 import {SearchName} from "./components/Pages/SearchName";
+import SignIn from './components/SignIn';
 
 
 const App = () => {
@@ -19,7 +20,12 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/personpage" element={<Personpage apiKey={KEY} />} />
+<<<<<<< HEAD
             <Route path="/SearchName" element={<SearchName apiKey={KEY} />} />
+=======
+          <Route path="/SignIn" element={<SignIn />} />
+            <Route path="/SearchName" element={<SearchName apiKey={KEY} />} /> 
+>>>>>>> 308bb97bb7e91408660e3657efbb6c93006d9680
         </Routes>
       </main>
     </BrowserRouter>
