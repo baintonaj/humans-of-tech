@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -20,12 +19,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/personpage" element={<Personpage apiKey={KEY} />} />
-<<<<<<< HEAD
             <Route path="/SearchName" element={<SearchName apiKey={KEY} />} />
-=======
-          <Route path="/SignIn" element={<SignIn />} />
+            <Route path="/SignIn" element={<SignIn />} />
             <Route path="/SearchName" element={<SearchName apiKey={KEY} />} /> 
->>>>>>> 308bb97bb7e91408660e3657efbb6c93006d9680
         </Routes>
       </main>
     </BrowserRouter>
