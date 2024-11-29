@@ -7,6 +7,7 @@ import Home from './components/Pages/Home';
 import Personpage from './components/Pages/Personpage';
 import {SearchName} from "./components/Pages/SearchName";
 import SignIn from './components/SignIn';
+import About from './components/Pages/About';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/SearchName" element={<SearchName apiKey={KEY} />} />
             <Route path="/SignIn" element={<SignIn />} />
             <Route path="/SearchName" element={<SearchName apiKey={KEY} />} /> 
+            <Route path="/About" element={<About />} />
         </Routes>
       </main>
     </BrowserRouter>
