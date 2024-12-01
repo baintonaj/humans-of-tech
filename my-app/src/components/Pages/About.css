@@ -1,17 +1,28 @@
-.footer-container {
-    background-color: rgba(10, 78, 99, 0.986);
+.about-container {
+    background-color: whitesmoke;
     padding: 20px;
-    text-align: center;
-  }
-  
-  .footer-subscription-heading {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .footer-subscription-text {
+    text-align: left; /* Align text to the left for better readability */
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for aesthetics */
+    border-radius: 8px;
+}
+
+.footer-subscription {
     font-size: 1rem;
-    margin: 5px 0;
-  }
-  
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #333;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 15px;
+}
